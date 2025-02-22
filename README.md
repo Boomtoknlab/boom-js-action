@@ -1,6 +1,6 @@
 🚀 Boom Action JS
 
-Automate Boom Token interactions, liquidity management, and analytics using GitHub Actions.
+Automate Boom Token interactions,liquidity management, and analytics using GitHub Actions.
 
 [![Lint Codebase](https://github.com/Boomtoknlab/boom-action-js/actions/workflows/lint.yml/badge.svg)](https://github.com/Boomtoknlab/boom-action-js/actions)  
 [![Continuous Integration](https://github.com/Boomtoknlab/boom-action-js/actions/workflows/ci.yml/badge.svg)](https://github.com/Boomtoknlab/boom-action-js/actions)  
@@ -45,4 +45,4 @@ git push origin v1.0.0
 
 📜 License
 
-MIT License © 2025 Boom Token
+MIT License © 2025 Boomtoknlab
