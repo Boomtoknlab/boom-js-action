@@ -2,8 +2,8 @@
 
 Automate Boom Token interactions, liquidity management, and analytics using GitHub Actions.
 
-[![Lint Codebase](https://github.com/Boomtokn/boom-action-js/actions/workflows/lint.yml/badge.svg)](https://github.com/Boomtokn/boom-action-js/actions)  
-[![Continuous Integration](https://github.com/Boomtokn/boom-action-js/actions/workflows/ci.yml/badge.svg)](https://github.com/Boomtokn/boom-action-js/actions)  
+[![Lint Codebase](https://github.com/Boomtoknlab/boom-action-js/actions/workflows/lint.yml/badge.svg)](https://github.com/Boomtoknlab/boom-action-js/actions)  
+[![Continuous Integration](https://github.com/Boomtoknlab/boom-action-js/actions/workflows/ci.yml/badge.svg)](https://github.com/Boomtoknlab/boom-action-js/actions)  
 
 🌟 Features
 
@@ -26,7 +26,7 @@ result	Output result of the executed action
 
 🛠 Development & Setup
 	1.	Clone the repository:
- git clone https://github.com/Boomtokn/boom-action-js.git
+ git clone https://github.com/Boomtoknlab/boom-action-js.git
 cd boom-action-js
 
 2.	Install dependencies:
@@ -45,4 +45,4 @@ git push origin v1.0.0
 
 📜 License
 
-MIT License © 2025 Boomtokn
+MIT License © 2025 Boom Token
