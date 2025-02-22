@@ -1,24 +1,39 @@
-name: The name of your action here
-description: Provide a description here
-author: Your name or organization here
+name: Boom Action JS
+description: Automate Boom Token interactions, liquidity management, and analytics using GitHub Actions.
+author: Boomtoknlab  
 
-# Add your action's branding here. This will appear on the GitHub Marketplace.
+# GitHub Marketplace branding
 branding:
-  icon: heart
-  color: red
+  icon: zap
+  color: orange
 
-# Define your inputs here.
+# Define your inputs
 inputs:
-  milliseconds:
-    description: Your input description here
+  private-key:
+    description: Private key for executing transactions securely
     required: true
-    default: '1000'
+  rpc-url:
+    description: RPC URL API of the blockchain node
+    required: true
+  action-type:
+    description: Type of action (transfer, stake, liquidity add/remove)
+    required: false
+    default: 'transfer'
 
-# Define your outputs here.
+# Define your outputs
 outputs:
-  time:
-    description: Your output description here
+  transaction-hash:
+    description: Hash of the executed transaction
+  status:
+    description: Success or failure status of the transaction
 
+# Define how the action runs
 runs:
   using: node20
   main: dist/index.js
+
+# Add categories for better discoverability
+categories:
+  - automation
+  - cryptocurrency
+  - blockchain
