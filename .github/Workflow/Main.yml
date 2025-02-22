@@ -6,7 +6,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Boom Action
-        uses: Boomtokn/boom-action-js@v1
+        uses: Boomtoknlab/boom-action-js@v1
         with:
           private-key: ${{ secrets.BOOM_PRIVATE_KEY }}
           rpc-url: ${{ secrets.BSC_RPC_API }}  # Updated to match your secret name
