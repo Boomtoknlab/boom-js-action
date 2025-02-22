@@ -1,0 +1,19 @@
+name: Boom Token Automation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  automate-boom:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Boom Action
+        uses: Boomtokn/boom-action-js@v1
+        with:
+          private-key: ${{ secrets.BOOM_PRIVATE_KEY }}
+          rpc-url: ${{ secrets.RPC_URL }}
